@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bereik je bodybuilding doelen met Timo Buse - professionele bodybuilding coaching op maat.">
+    <title>Timo Buse - Competitieve Bodybuilding Coach</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="timo-header">
+        <div class="logo-container">
+            <img src="gym-logo-placeholder.png" alt="Gym Logo" class="logo">
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#coaching">Personal Training</a></li>
+                <li><a href="#events">Member Events</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href="https://facebook.com" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1>Bereik Je Bodybuilding Doelen met Timo Buse</h1>
+            <h2>Start je Transformatie Vandaag</h2>
+            <button class="cta-button" onclick="scrollToSection('contact')">Start je gratis consult</button>
+        </div>
+    </section>
+
+    <!-- Slider Section -->
+    <section id="slider" class="slider-section">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="bodybuilding-image1.jpg" alt="Bodybuilding Image 1"></div>
+                <div class="swiper-slide"><img src="bodybuilding-image2.jpg" alt="Bodybuilding Image 2"></div>
+                <div class="swiper-slide"><img src="bodybuilding-image3.jpg" alt="Bodybuilding Image 3"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews-section">
+        <h2>Wat Onze Klanten Zeggen</h2>
+        <div class="review-card">
+            <img src="blond-profile1.jpg" alt="Yvon Doucet" class="profile-photo">
+            <p><strong>Yvon Doucet</strong></p>
+            <div class="stars">★★★★★</div>
+            <p>"Timo Buse heeft mijn doelen naar een hoger niveau gebracht. Perfecte ondersteuning!"</p>
+        </div>
+        <div class="review-card">
+            <img src="blond-profile2.jpg" alt="Jeroen Verbeek" class="profile-photo">
+            <p><strong>Jeroen Verbeek</strong></p>
+            <div class="stars">★★★★★</div>
+            <p>"Nooit gedacht dat ik dit kon bereiken. Timo is een geweldige coach!"</p>
+        </div>
+        <div class="review-card">
+            <img src="blond-profile3.jpg" alt="Mark de Boer" class="profile-photo">
+            <p><strong>Mark de Boer</strong></p>
+            <div class="stars">★★★★★</div>
+            <p>"Geweldige ervaring! De plannen van Timo werken echt. Bedankt!"</p>
+        </div>
+        <div class="review-card">
+            <img src="blond-profile4.jpg" alt="Lucas van Dijk" class="profile-photo">
+            <p><strong>Lucas van Dijk</strong></p>
+            <div class="stars">★★★★★</div>
+            <p>"Topcoach en de resultaten waren zichtbaar in korte tijd. Zeker aan te raden!"</p>
+        </div>
+        <div class="review-card">
+            <img src="blond-profile5.jpg" alt="Thomas de Vries" class="profile-photo">
+            <p><strong>Thomas de Vries</strong></p>
+            <div class="stars">★★★★★</div>
+            <p>"Professionele aanpak en vriendelijke ondersteuning. Timo is fantastisch!"</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contacteer Ons</h2>
+        <form id="contactForm">
+            <label for="name">Naam:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Bericht:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="submit-button">Verzenden</button>
+        </form>
+    </section>
+</body>
+</html>
