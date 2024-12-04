@@ -1,0 +1,81 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: #FF6600;
+}
+a:hover {
+    color: #CC5200;
+}
+
+/* Header Social Icons */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('hero-placeholder.jpg') center/cover no-repeat;
+    height: 100vh;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Reviews Section */
+.reviews-section {
+    background-color: #F9F9F9;
+    padding: 40px;
+    text-align: center;
+}
+.review-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    animation: fadeInUp 0.8s ease;
+}
+.profile-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.stars {
+    color: gold;
+    font-size: 20px;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .review-card {
+        padding: 10px;
+    }
+}
